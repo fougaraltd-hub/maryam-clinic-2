@@ -80,15 +80,15 @@ function updateTranslations(lang) {
     
     // Update page title
     const titles = {
-        ar: 'د. مريم مسعي أحمد - أخصائية ومعالجة نفسانية | Constantine, Algeria',
-        fr: 'Dr. Maryam Messai-Ahmed - Psychothérapeute | Constantine, Algérie',
-        en: 'Dr. Maryam Messai-Ahmed - Psychotherapist | Constantine, Algeria'
+        ar: 'مريم مسعي أحمد - أخصائية ومعالجة نفسانية | قسنطينة، الجزائر',
+        fr: 'Maryam Messai-Ahmed - Psychothérapeute | Constantine, Algérie',
+        en: 'Maryam Messai-Ahmed - Psychotherapist | Constantine, Algeria'
     };
     document.title = titles[lang];
     
     // Update meta description
     const descriptions = {
-        ar: 'أخصائية ومعالجة نفسانية، كاتبة، باحثة ومدربة. جلسات علاج نفسي عبر الإنترنت وشخصياً في قسنطينة، الجزائر',
+        ar: 'أخصائية ومعالجة نفسانية، كاتبة، باحثة ومدربة. جلسات علاج نفسي عبر الإنترنت وحضوريا في قسنطينة، الجزائر',
         fr: 'Psychothérapeute, écrivaine, chercheuse et formatrice. Séances de thérapie en ligne et en présentiel à Constantine, Algérie',
         en: 'Psychotherapist, writer, researcher, and trainer. Online and in-person therapy sessions in Constantine, Algeria'
     };
@@ -520,6 +520,6 @@ function initAccessibility() {
 initAccessibility();
 
 // Console welcome message
-console.log('%cWelcome to Dr. Maryam Messai-Ahmed\'s Website', 'font-size: 20px; font-weight: bold; color: #2c5f6f;');
+console.log('%cWelcome to Maryam Messai-Ahmed\'s Website', 'font-size: 20px; font-weight: bold; color: #2c5f6f;');
 console.log('%cPsychotherapist | Writer | Researcher | Trainer', 'font-size: 14px; color: #666;');
 console.log('%cWebsite developed with care and attention to detail', 'font-size: 12px; color: #999;');
